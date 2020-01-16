@@ -12,7 +12,7 @@ resource "google_bigquery_dataset" "dataset" {
 
   access {
     role          = "OWNER"
-    user_by_email = var.bq_dataset_owner
+    group_by_email = var.bq_dataset_owner
   }
 //  access {
 //    role   = "READER"
