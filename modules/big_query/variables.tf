@@ -23,3 +23,7 @@ variable "default_table_expiration_ms" {
   description = "TTL of tables using the dataset in MS"
   default     = null
 }
+
+variable "bq_dataset_owner" {
+  description = "Who adminsters the BQ datasets and tables"
+}

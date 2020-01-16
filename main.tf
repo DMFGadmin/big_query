@@ -5,4 +5,5 @@ module "big_query" {
   dataset_name = var.dataset_name
   description = var.description
   project_id = var.project_id
+  bq_dataset_owner = var.bq_dataset_owner
 }
