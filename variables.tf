@@ -40,10 +40,10 @@ variable "project_id" {
   description = "Project where the dataset and table are created"
 }
 
-variable "dataset_labels" {
-  description = "Key value pairs in a map for dataset labels"
-  type        = map(string)
-}
+//variable "dataset_labels" {
+//  description = "Key value pairs in a map for dataset labels"
+//  type        = map(string)
+//}
 
 variable "tables" {
   description = "A list of objects which include table_id, schema, clustering, time_partitioning, expiration_time and labels."
