@@ -15,13 +15,13 @@ variable "location" {
   default     = "US"
 }
 
+variable "project_id" {
+  description = "Project where the dataset and table are created"
+}
+
 variable "default_table_expiration_ms" {
   description = "TTL of tables using the dataset in MS"
   default     = null
-}
-
-variable "project_id" {
-  description = "Project where the dataset and table are created"
 }
 
 variable "bq_dataset_owner" {
