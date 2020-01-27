@@ -15,6 +15,9 @@ variable "location" {
   default     = "US"
 }
 
+variable "project_id" {
+  description = "project where big query will be deployed"
+}
 variable "default_table_expiration_ms" {
   description = "TTL of tables using the dataset in MS"
   default     = null
